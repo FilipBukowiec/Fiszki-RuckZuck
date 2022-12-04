@@ -1,0 +1,62 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: rgb(64, 64, 66);
+}
+
+button {
+  border: none;
+}
+
+select {
+  background-color: white;
+  border: none;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 10vw;
+  height: 100px;
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+.logorz {
+  height: 70px;
+  margin-right: 20px;
+}
+
+.wrapper {
+  background-color: rgb(64, 64, 66);
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10vw;
+  height: 40px;
+  gap: 5px;
+}
+
+main {
+  background-color: rgb(244, 244, 244);
+  padding: 10px 10vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer {
+  color: rgb(244, 244, 244);
+  font-size: 12px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(194, 16, 37);
+}/*# sourceMappingURL=styles.css.map */
